@@ -1,0 +1,517 @@
+.banner {
+    background-image: url(../resources/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.banner-text1 {
+    text-align: center;
+
+    margin: auto;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text2 {
+    
+    margin: auto;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+/* offer section */
+.offer-container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.offer-text1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+
+    margin-top: 120px;
+}
+
+.offer-text2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+    margin-top: 50px;
+}
+
+.offer-text3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+
+    margin-top: 16px;
+}
+
+#offer-pic {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+
+    margin-bottom: 120px;
+}
+
+/* party section */
+
+.party {
+    background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    position: relative;
+
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+
+    margin: auto;
+    margin-bottom: 120px;
+    display: flex;
+}
+
+.party-container {
+    margin-top: 126px;
+    margin-left: 126px;
+}
+
+.party-text1 {
+    max-width: 642px;
+
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.party-text2 {
+    max-width: 697px;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#button1 {
+    text-decoration: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#year2024 {
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    /* padding: 0.008px 0px 0px 0px; */
+    flex-shrink: 0;
+    padding-right: 140px;
+    margin: auto;
+}
+
+/* date, time, place section */
+
+.location-container {
+    background-color: #FFF;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+
+    margin: auto;
+    margin-bottom: 120px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.text-pdt,
+.text-pdt1 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+
+    display: block;
+    margin: auto;
+}
+
+.text-pdt1 {
+    padding-top: 100px;
+}
+
+.pdt {
+    color: #F00;
+}
+
+.button2 {
+    padding: 16px 32px;
+    background: #F00;
+    border: 0px;
+    flex-shrink: 0;
+
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.button2 :hover {
+    background-color: #FFF;
+}
+
+/* .button2 {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 8px;
+    background: #F00;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+} */
+
+/* sale section */
+.sale-container {
+    width: 1320px;
+    height: 270px;
+
+    margin: auto;
+    margin-bottom: 120px;
+    display: center;
+
+}
+
+.sale-text1 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+
+    margin-bottom: 16px;
+
+}
+
+.sale-text2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+
+
+    margin-bottom: 28px;
+
+}
+
+.sale-text3 {
+    max-width: 1068px;
+
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+
+
+    display: block;
+    margin: auto;
+}
+
+.holiday {
+    color: #F00;
+}
+
+/* doscount section */
+.discount-container {
+    margin: auto;
+    width: 1320px;
+    height: 662px;
+    margin-bottom: 120px;
+
+}
+
+
+.rec2 {
+
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.rec1 {
+    margin: auto;
+    float: right;
+}
+
+.group44 {
+    margin: auto;
+    margin-top: 90px;
+    margin-left: 745px;
+    float: right;
+    position: absolute;
+}
+
+.group75 {
+    position: absolute;
+}
+
+/* product section */
+.product-container {
+    width: 1320px;
+    margin: auto;
+    display: center;
+    margin-bottom: 120px;
+
+}
+
+.product-text1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.product-text2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.product-text3 {
+    max-width: 896px;
+
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.product-collage1 {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+/* letter section */
+.letter-content {
+    position: relative;
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 120px;
+}
+
+.letter-text1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.letter-text2 {
+    max-width: 896px;
+    margin: auto;
+    margin-bottom: 50px;
+
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#sub {
+    position: relative;
+
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+
+    border-radius: 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#sub-button {
+    position: absolute;
+
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 60px;
+    
+    right: 318px;
+
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+
+    
+}
+
+/* foooter */
+.footer {
+    background: #070211;
+
+    height: 609px;
+    flex-shrink: 0;
+}
+
+.footer-part1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+.footer-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-call {
+    display: flex;
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 5px;
+}
+
+.call {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.footer-web {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.web {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.footer-part2 {
+    display: flex;
+    gap: 16px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: none;
+    text-align: center;
+}
+
+.footer-part3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
